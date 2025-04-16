@@ -1,0 +1,11 @@
+protobuf==3.20.0
+tensorflow==2.8.0
+Flask==2.3.3
+Flask-Cors==4.0.0
+vit_keras==0.1.2
+numpy==1.26.4
+Pillow==11.0.0
+opencv-python
+tensorflow-addons
+matplotlib
+huggingface_hub
