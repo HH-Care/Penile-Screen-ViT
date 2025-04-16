@@ -1,0 +1,64 @@
+Creative Commons Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)
+
+Copyright (c) 2025
+Yudara Kularathne, Janitha Prathapa, Thanveer Ahamad
+
+=====================================================================
+
+This work — including all source code, model architecture definitions, pretrained weights, documentation, and associated resources — is licensed under the Creative Commons Attribution-NonCommercial 4.0 International License (CC BY-NC 4.0).
+
+Full license text: https://creativecommons.org/licenses/by-nc/4.0/legalcode  
+License summary: https://creativecommons.org/licenses/by-nc/4.0/
+
+=====================================================================
+
+PROJECT TITLE:
+Penile-Screen-ViT — Transformer-Based Image Classifier for Genital Pathology Detection
+
+PROJECT DESCRIPTION:
+This project presents a deep learning model based on the Vision Transformer (ViT-B16) architecture for classifying penile-related medical images into diagnostic categories. The model is fine-tuned for identifying a range of conditions, including both sexually transmitted diseases (STDs) and other non-STD genital pathologies. It is intended as a research and diagnostic aid in clinical or academic settings.
+
+Developed using TensorFlow and the `vit-keras` package, the model includes a custom classification head specifically adapted to the domain of genital pathology. The tool enables intelligent image-based diagnosis for enhancing medical research, screening, and educational purposes.
+
+=====================================================================
+YOU ARE FREE TO:
+
+✔️ **Share** — copy and redistribute the material in any medium or format  
+✔️ **Adapt** — remix, transform, and build upon the material
+
+...for **non-commercial** purposes only, and **only** under the following terms:
+
+=====================================================================
+TERMS OF USE:
+
+1. **Attribution**  
+   You must give appropriate credit to the original authors (Thanveer Ahamad, Janitha Prathapa, and Yudara Kularathne), provide a link to this license, and indicate if changes were made. This attribution must not suggest endorsement by the original authors.
+
+2. **NonCommercial**  
+   You may not use the material for commercial purposes. This includes, but is not limited to:
+   - Selling access to the model or derivatives.
+   - Integrating the model into commercial products or services.
+   - Using the model as part of any profit-generating platform or software.
+
+3. **No Additional Restrictions**  
+   You may not apply legal terms or technological measures that legally restrict others from doing anything the license permits.
+
+=====================================================================
+COMMERCIAL USAGE:
+
+This license does **not** permit commercial use. If you wish to use this project or any component of it (including model weights or source code) for commercial applications — such as integration into a diagnostic product, mobile app, SaaS platform, or paid service — you must obtain explicit written permission from the authors.
+
+📩 Please contact the authors directly for commercial licensing inquiries:
+
+- Yudara Kularathne
+- Thanveer Ahamad  
+- Janitha Prathapa  
+
+(Email/contact info can be provided in the project repository or upon request.)
+
+=====================================================================
+DISCLAIMER:
+
+This tool is intended for **research, academic, and educational purposes only**. It is not certified as a clinical diagnostic device or tool. The authors do not take responsibility for any misuse or clinical decisions made based on the output of this model. Always consult qualified medical professionals for actual diagnosis and treatment.
+
+=====================================================================
