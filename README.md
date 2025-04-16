@@ -9,10 +9,6 @@ This project uses a **Vision Transformer (ViT-B16)** model to classify penile-re
 - 🍆 **PenileScreen**:  
   Refers to the model’s focus on analyzing dermatological images from the penile region.
 
-- 🧪 **Visual Pattern Classifier**:  
-  Indicates that the model groups images based on observable features and structures within the image, without clinical interpretation.
-<br>
-
 ## 🧠 Classes
 
 **PenileScreen-ViT** classifies images into the following three categories:
@@ -22,7 +18,6 @@ This project uses a **Vision Transformer (ViT-B16)** model to classify penile-re
 - **Syphilis**
 
 The model is designed to assist in **image classification**, **digital health research**, and **educational visualization** by grouping images based on shared dermatological features.
-<br>
 
 ## 📁 File Structure
 
@@ -35,7 +30,6 @@ PenileScreen-ViT/
 └── weights/
     └── PenileScreen_ViT.h5  # Pretrained model weights (not included in repo)
 ```
-
 
 <br>
 
@@ -89,7 +83,7 @@ python main.py path/to/image.jpg
 - It will also **display the image with the prediction** using `matplotlib`.
 
 
-<img src="https://github.com/janithaDassanayake/dummyimages/blob/main/output%20(4).png" alt="STD VIT" />
+<img src="https://github.com/janithaDassanayake/dummyimages/blob/main/output%20(5).png" alt="STD VIT" />
 <br>
 
 ## 🧠 Model Architecture
