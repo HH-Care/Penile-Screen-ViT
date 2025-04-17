@@ -37,7 +37,7 @@ PenileScreen-ViT/
 
 ### 1. Create Virtual Environment
 
-**Python version:** Compatible with Python ≥3.8 and ≤3.11
+**Python version:** Compatible with Python >3.8 and ≤3.11
 
 #### On Windows:
 ```bash
