@@ -9,7 +9,6 @@ This project uses a **Vision Transformer (ViT-B16)** model to classify penile-re
 - 🍆 **PenileScreen**:  
   Refers to the model’s focus on analyzing dermatological images from the penile region.
 
-<br>
 
 ## 📂 Dataset
 
@@ -36,8 +35,6 @@ This method generates realistic variations by modifying:
 
 All transformations are biologically plausible, ensuring that diagnostic features are preserved while increasing dataset variability.
 
-
-<br>
 
 ## 📁 File Structure
 
@@ -112,7 +109,7 @@ python main.py path/to/image.jpg
 
 This project uses:
 - **ViT-B16 (pretrained on ImageNet21k)** as a base
-- Custom classification head: `Flatten -> Dense(6, softmax)`
+- Custom classification head: `Flatten -> Dense(3, softmax)`
 - **Fine-tuned on a proprietary dataset of penile pathology images**
 
 <br>
