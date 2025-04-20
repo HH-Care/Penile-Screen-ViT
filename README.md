@@ -9,15 +9,35 @@ This project uses a **Vision Transformer (ViT-B16)** model to classify penile-re
 - 🍆 **PenileScreen**:  
   Refers to the model’s focus on analyzing dermatological images from the penile region.
 
-## 🧠 Classes
+<br>
 
-**PenileScreen-ViT** classifies images into the following three categories:
+## 📂 Dataset
 
-- **Genital_warts**
+The **PenileScreen-ViT** model is trained on a curated dataset sourced from publicly available images, accessible via our repository:  
+🔗 [Genital-Patho-Dataset (GitHub)](https://github.com/HH-Care/Genital-Patho-Dataset)
+
+### 🧬 Data Composition
+
+The dataset includes real-world images representing:
+- **Genital Warts**
 - **HSV (Herpes Simplex Virus)**
 - **Syphilis**
 
-The model is designed to assist in **image classification**, **digital health research**, and **educational visualization** by grouping images based on shared dermatological features.
+These images were collected from open-access sources for research and educational use.  
+
+### 🧪 Synthetic Data Generation
+
+To improve data diversity and model generalization, we applied an **in-house synthetic data generation technique** using our proprietary tool: **SynthVision** ([arXiv:2402.02826](https://arxiv.org/abs/2402.02826)).  
+This method generates realistic variations by modifying:
+- Texture and lighting conditions  
+- Skin tone variations  
+- Lesion presentation and morphology  
+- Anatomical context
+
+All transformations are biologically plausible, ensuring that diagnostic features are preserved while increasing dataset variability.
+
+
+<br>
 
 ## 📁 File Structure
 
