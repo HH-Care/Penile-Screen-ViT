@@ -1,6 +1,15 @@
 
 ## 🧪 PenileScreen-ViT — Transformer-based Genital Pathology Classifier
 
+<br>
+
+
+> **Built upon:**  
+> ➤ [The Development and Performance of a Machine‑Learning Based Mobile Platform for Visually Determining the Etiology of 5 Penile Diseases](https://www.mcpdigitalhealth.org/article/S2949-7612(24)00035-X/fulltext) — Allan‑Blitz LT, Ambepitiya S, Tirupathi R, & Klausner JD. *Digital Health*, 2024.  
+> *(Implementation and adaptation by our team.)*
+
+<br>
+
 This project uses a **Vision Transformer (ViT-B16)** model to classify penile-region images into three categories based on commonly observed patterns associated with sexually transmitted conditions. Built using TensorFlow and `vit-keras`, the model includes a custom classification head optimized for multi-class image understanding.
 
 - 🔍 **ViT**:  
@@ -141,6 +150,5 @@ Commercial use is prohibited without prior permission. For more details, see the
   howpublished={\url{https://huggingface.co/HehealthVision/PenileScreen-ViT}},
 }
 ```
-
-**APA:**
-APA: Yudara Kularathne, Janitha Prathapa, & Thanveer Ahamad. (2024). PenileScreen-ViT: Vision Transformer Model for STD-Related Visual Classification. Hugging Face. https://huggingface.co/HehealthVision/PenileScreen-ViT
+**Original paper (APA):**
+> Allan‑Blitz LT, Ambepitiya S, Tirupathi R, & Klausner JD. (2024). The Development and Performance of a Machine‑Learning Based Mobile Platform for Visually Determining the Etiology of 5 Penile Diseases. *Digital Health*. Retrieved from https://www.mcpdigitalhealth.org/article/S2949-7612(24)00035-X/fulltext
